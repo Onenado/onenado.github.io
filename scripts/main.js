@@ -10,6 +10,8 @@ myImage.onclick = function () {
     myImage.setAttribute("src", "images/honor200.png");
   } else if (mySrc === "images/honor200.png") {
     myImage.setAttribute("src", "images/honor300.png");
+  } else if (mySrc === "images/honor300.png") {
+    myImage.setAttribute("src", "images/magic7.png");
   } else {
     myImage.setAttribute("src", "images/honor70.png");
   }
